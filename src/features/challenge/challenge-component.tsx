@@ -1,6 +1,7 @@
 import { ChangeEvent, FormEvent, useEffect, useState } from "react";
 import { IAttempt } from "../interfaces";
 import ApiClient from "../../services/ApiClient";
+import LastAttemptsComponent from "../attemtpt/last-attemtps-component";
 
 interface ChallengeProps {
    a: string;
